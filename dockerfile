@@ -1,6 +1,9 @@
 # Use a prebuilt Minecraft server image
 FROM itzg/minecraft-server
 
+# Accept the EULA
+ENV EULA=TRUE
+
 # Copy server.properties to the correct location
 COPY server.properties /data/server.properties
 
