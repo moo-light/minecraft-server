@@ -1,0 +1,18 @@
+# Ignore logs and temporary files
+logs/
+crash-reports/
+*.log
+*.gz
+session.lock
+
+# Ignore player cache and banned lists (optional)
+usercache.json
+banned-players.json
+banned-ips.json
+
+# Track important data
+!data/  # Allow tracking the entire data folder
+!data/world/  # Track the world folder
+!data/server.properties  # Keep server settings
+!data/whitelist.json  # Track whitelist
+!data/ops.json  # Track operator list
