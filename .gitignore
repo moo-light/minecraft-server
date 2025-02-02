@@ -16,3 +16,4 @@ banned-ips.json
 !data/server.properties  # Keep server settings
 !data/whitelist.json  # Track whitelist
 !data/ops.json  # Track operator list
+.env
