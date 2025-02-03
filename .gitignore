@@ -17,4 +17,4 @@ banned-ips.json
 !data/whitelist.json  # Track whitelist
 !data/ops.json  # Track operator list
 .env
-ngrok-recovery-code.txt
+ngrok_recovery_codes.txt
